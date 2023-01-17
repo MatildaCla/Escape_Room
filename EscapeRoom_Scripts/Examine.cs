@@ -30,8 +30,6 @@ public class Examine : MonoBehaviour
         {
             //Unlock Cursor
             Cursor.lockState = CursorLockMode.None;
-            //Load new Scene
-            //SceneManager.LoadScene(sceneName, LoadSceneMode.Single);
             //Open Canvas
             canvas.gameObject.SetActive(true);
         }
