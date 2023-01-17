@@ -11,8 +11,6 @@ public class SceneLoader : MonoBehaviour
     {
         //Lock Curser
         Cursor.lockState = CursorLockMode.Locked;
-        //Load Playground
-        //SceneManager.LoadScene(0, LoadSceneMode.Single);
         //Close Canvas
         canvas.gameObject.SetActive(false);
     }
